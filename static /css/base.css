@@ -1,0 +1,51 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(118, 209, 231);
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav a {
+  text-decoration: none;
+  color: #96b0b1;
+  margin-right: 10px;
+}
+
+a.mr-4 {
+  margin-right: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+}
+
+h1{
+  color: rgb(241, 162, 64);
+}
+h2{
+  color: rgb(46, 39, 105);
+}
